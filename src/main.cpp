@@ -36,7 +36,7 @@ int main() {
   PID pid;
   static const double tau_p = 0.15;
   static const double tau_i = 0.0005;
-  static const double tau_d = 3.5;
+  static const double tau_d = 3.0;
   pid.Init(tau_p, tau_i, tau_d);
 
   h.onMessage([&pid](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length,

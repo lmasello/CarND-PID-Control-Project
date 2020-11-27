@@ -68,6 +68,6 @@ The second term is introduced to avoid oscillations. This value is related to th
 The third term tries to compensate the impact of the systematic bias in the trajectory. It is called the integral term since it takes into account the summation of the CTE values to avoid constant values of the error. In the project, it prevents from driving away of the centre of the lane towards the left or right side.
 
 Finally, these terms are weighted and combined to generate the output of the controller. The final weights, also called hyperparameters or PID coefficients, can be chosen  through different methods (e.g., manual tuning, twiddle, SGD). In this project, these values were chosen manually, starting with the values
-presented in the lectures (i.e., [0.2, 3.0, 0.004]) and then testing slight individual modifications in the simulator. As a result, the final hyperparameters were [0.15, 3.5, 0.0005]. The following video shows a chunk of the race track with these values:
+presented in the lectures (i.e., [0.2, 3.0, 0.004]) and then testing slight individual modifications in the simulator. As a result, the final hyperparameters were [0.15, 3.0, 0.0005]. The following video shows a chunk of the race track with these values:
 
 ![Video of the vehicle driving on the simulated track][example1]
