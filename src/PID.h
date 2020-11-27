@@ -31,6 +31,11 @@ class PID {
    */
   double TotalError();
 
+  /**
+   * Compute the throttle in the range [0, 1] according the current steering value
+   */
+  double ThrottleValue();
+
  private:
   /**
    * PID Errors
@@ -41,7 +46,7 @@ class PID {
 
   /**
    * PID Coefficients
-   */ 
+   */
   double Kp;
   double Ki;
   double Kd;
