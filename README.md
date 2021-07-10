@@ -1,7 +1,7 @@
 # CarND-Controls-PID
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
-This project's goal consists of implementing a proportional-integral-derivative (PID) controller in C++ to manoeuvre the vehicle around a simulated track. The PID controller generates steering values to minimize the deviations from the expected trajectory coming from the path planning algorithm.
+This project's goal consists of implementing a [proportional-integral-derivative (PID) controller](https://en.wikipedia.org/wiki/PID_controller) in C++ to manoeuvre the vehicle around a simulated track. The PID controller generates steering values to minimize the deviations from the expected trajectory coming from the path planning algorithm.
 
 [//]: # (Image References)
 [example1]: ./img/example.gif "Video of the vehicle driving on the simulated track"
